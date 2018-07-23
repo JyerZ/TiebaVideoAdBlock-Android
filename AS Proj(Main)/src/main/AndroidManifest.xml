@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.jyer.tiebavideoadblock">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Block video advertisement in BaiduTieba" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="30" />
+    </application>
+</manifest>
